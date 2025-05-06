@@ -37,7 +37,14 @@ public class Joueur extends Objet {
 	 * la boule du joueur
 	 */
 	private Boule boule ;
-	
+	/**
+	 * vie restante du joueur
+	 */
+	private int vie ;
+	/**
+	 * tourner vers la gauche (0) pou vers la droite (1)
+	 */
+	private int orientation ;
 	/**
 	 * Constructeur
 	 */
@@ -93,7 +100,13 @@ public class Joueur extends Objet {
 	 */
 	public void perteVie() {
 	}
-	
+	/**
+	 * controle si le joueur touche un mur
+	 * @return true si un joueur touche un mur
+	 */
+	private Boolean toucheMur() {
+		return null ;
+	}
 	/**
 	 * vrai si la vie est à 0
 	 * @return true si vie = 0
